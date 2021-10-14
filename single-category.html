@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bistro Site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="for navbar.html" class="pull-left visible-md visible-lg" > <!-- pull-left is bootstrap float left -->
+                        <div id="logo-img"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="for navbar.html"><h1>DOLLY P BISTRO</h1></a>
+                        <p>
+                            <img src="images/star-k-logo.png" alt="">
+                            <span>Kosher Certified</span> 
+                        </p>
+                    </div>
+                    <button class="navbar-toggle" type="button" data-toggle="collapse"
+                     data-target="#collapsable-nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards
+                            </a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel:+234-812-345-6789">
+                                <span>08123456789</span>
+                            </a>
+                            <div>We Deliver</div>
+                        </li>
+                    </ul>
+                </div>
+         </div>
+        </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+        <a class= "btn" href="tel:+234-812-345-6789">
+            <span class="glyphicon glyphicon-earphone">08123456789</span>
+        </a>
+    </div>
+    <div id="xs-deliver" class=" text center visible-xs">WE DELIVER</div>
+
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+        <section class="row">
+            <div class="menu-item-tile col-md-6" >
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D01</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/spag and sauce.jpg" alt="item">
+                        </div>
+                        <div class="menu-item-price">#1000 <span>(pint)</span>
+                            #1400 <span>(quart)</span>
+                        </div>
+                    </div>
+                
+                    <div class="menu-item description col-sm-7" >
+                        <h3 class="menu-item-title">Spaghetti with sauce</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                    <hr class="visible-xs">
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D01</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/plantain and eggs.jpg" alt="item">
+                        </div>
+                        <div class="menu-item-price">#1000 <span>(pint)</span>
+                            #1400 <span>(quart)</span>
+                        </div>
+                    </div>
+                
+                    <div class="menu-item description col-sm-7" >
+                        <h3 class="menu-item-title">Plantain with egg</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                    <hr class="visible-xs">
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D01</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/Spaghetti_Pasta_Recipe.jpg" alt="item">
+                        </div>
+                        <div class="menu-item-price">#1000 <span>(pint)</span>
+                            #1400 <span>(quart)</span>
+                        </div>
+                    </div>
+                
+                    <div class="menu-item description col-sm-7" >
+                        <h3 class="menu-item-title">Spaghetti Pasta Recipe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                   
+                </div>
+                     
+            </div>
+
+            <div class="menu-item-tile col-md-6" >
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D02</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/bazmati rice.jpg" alt="item">
+                        </div>
+                        <div class="menu-item-price">#1000 <span>(pint)</span>
+                            #1400 <span>(quart)</span>
+                        </div>
+                    </div>
+                
+                    <div class="menu-item description col-sm-7" >
+                        <h3 class="menu-item-title">Bazmati Rice</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                    <hr class="visible-xs">
+                </div>
+            </div>    
+
+            <div class="menu-item-tile col-md-6" >
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D02</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/jollof-rice.jpg" alt="item">
+                        </div>
+                        <div class="menu-item-price">#1000 <span>(pint)</span>
+                            #1400 <span>(quart)</span>
+                        </div>
+                    </div>
+                
+                    <div class="menu-item description col-sm-7" >
+                        <h3 class="menu-item-title">Jollof Rice</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                    <hr class="visible-xs">
+                </div>
+            </div>    
+
+            <div class="menu-item-tile col-md-6" >
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D02</div>
+                            <img class="img-responsive" width="250" height="150" src="./images/ofada.jpg" alt="item">
+                        </div>
+                        <div class="menu-item-price">#1000 <span>(pint)</span>
+                            #1400 <span>(quart)</span>
+                        </div>
+                    </div>
+                
+                    <div class="menu-item description col-sm-7" >
+                        <h3 class="menu-item-title">Ofada Rice</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        
+        
+    </div><!--END OF MAIN CONTENT DIV-->
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:00am - 10:00pm <br>
+                    Fri: 11:00am - 2:30pm <br>
+                    Saturday Closed
+                    <hr class="visible-xs">
+                </section>
+
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                        Idinmu Rd 15, <br>
+                        Ipaja,Lagos <br>
+                    <p>Deivery area within lagos is 1000naira to 2000 naira</p>    
+                    <hr class="visible-xs">
+                </section>
+
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best restaurant i have been to!"</p>
+                    <p>"Amazing food! Great service! Couldnt ask for more!
+                        I'll definitely be back for more!" 
+                    </p>
+                </section>
+            </div>
+            <div class="text-center">&copy; Copyright Dolly P's Bistro 2021</div>
+
+        </div>
+    </footer>
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
